@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bad Code Demo</title>
+    <script>
+        function load() {
+            var a = 1;
+            var a = 2; // duplicate variable
+            console.log("Hello World")
+            alert("This is bad practice") // alert is discouraged
+        }
+        load()
+    </script>
+</head>
+<body>
+    <h1>Welcome to Bad Code</h1>
+</body>
+</html>
